@@ -8,7 +8,6 @@
 
 #import "EnemyEntity.h"
 
-
 @implementation EnemyEntity
 
 @synthesize initialHitPoints,hitPoints;
@@ -98,7 +97,24 @@ static CCArray *spawnFrequency;
 	if (hitPoints <= 0)
 	{
 		self.visible = NO;
-	}
+        
+        CCParticleSystem *system;
+        if (type == EnemyTypeBoss) {
+            system = [CCParticleSystemQuad particleWithFile:@"fx-explosion2.plist"];
+            [[SimpleAudioEngine sharedEngine] playEffect:@"explo1.wav" pitch:1.0f pan:0.0f gain:1.0f];
+        } else {
+            system = [CCParticleSystemQuad particleWithFile:@"fx-explosion.plist"];
+            [[SimpleAudioEngine sharedEngine] playEffect:@"explo2.wav" pitch:1.0f pan:0.0f gain:1.0f];
+        }
+        
+        system.positionType = kCCPositionTypeFree;
+        system.autoRemoveOnFinish = YES;
+        system.position = self.position;
+        
+        [[GameScene sharedGameScene] addChild:system];
+	} else {
+        [[SimpleAudioEngine sharedEngine] playEffect:@"hit1.wav" pitch:1.0f pan:0.0f gain:1.0f];
+    }
     
 }
 

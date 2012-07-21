@@ -86,11 +86,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ShutEmUp/GameScene.m"
-         timestampString = "364487714.169377"
+         timestampString = "364578315.63251"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "64"
-         endingLineNumber = "64"
+         startingLineNumber = "72"
+         endingLineNumber = "72"
          landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
@@ -307,11 +307,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ShutEmUp/InputLayer.m"
-         timestampString = "364467104.837051"
+         timestampString = "364578315.63251"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "66"
-         endingLineNumber = "66"
+         startingLineNumber = "67"
+         endingLineNumber = "67"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -346,7 +346,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ShutEmUp/GameScene.m"
-         timestampString = "364487800.850924"
+         timestampString = "364578315.63251"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "61"
@@ -411,11 +411,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ShutEmUp/EnemyEntity.m"
-         timestampString = "364555562.409222"
+         timestampString = "364577824.80234"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "47"
-         endingLineNumber = "47"
+         startingLineNumber = "46"
+         endingLineNumber = "46"
          landmarkName = "-initWithType:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -424,11 +424,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ShutEmUp/EnemyEntity.m"
-         timestampString = "364555562.409222"
+         timestampString = "364577824.80234"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "48"
-         endingLineNumber = "48"
+         startingLineNumber = "47"
+         endingLineNumber = "47"
          landmarkName = "-initWithType:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -489,11 +489,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ShutEmUp/EnemyEntity.m"
-         timestampString = "364555562.409222"
+         timestampString = "364577824.80234"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "54"
-         endingLineNumber = "54"
+         startingLineNumber = "53"
+         endingLineNumber = "53"
          landmarkName = "-initWithType:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -502,11 +502,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ShutEmUp/EnemyEntity.m"
-         timestampString = "364555562.409222"
+         timestampString = "364577824.80234"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "51"
-         endingLineNumber = "51"
+         startingLineNumber = "50"
+         endingLineNumber = "50"
          landmarkName = "-initWithType:"
          landmarkType = "5">
       </FileBreakpoint>

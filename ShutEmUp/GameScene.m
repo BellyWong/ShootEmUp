@@ -60,9 +60,21 @@ static CGRect screenRect;
 		EnemyCache* enemyCache = [EnemyCache node];
 		[self addChild:enemyCache z:0 tag:GameSceneNodeTagEnemyCache];
         
+        [self preloadParticleEffect:@"fx-explosion.plist"];
+        [self preloadParticleEffect:@"fx-explosion2.plist"];        
+        
+        [[SimpleAudioEngine sharedEngine] preloadEffect:@"explo1.wav"];
+		[[SimpleAudioEngine sharedEngine] preloadEffect:@"explo2.wav"];
+		[[SimpleAudioEngine sharedEngine] preloadEffect:@"shoot1.wav"];
+		[[SimpleAudioEngine sharedEngine] preloadEffect:@"shoot2.wav"];
+		[[SimpleAudioEngine sharedEngine] preloadEffect:@"hit1.wav"];
         
     }
     return self;
+}
+
+- (void) preloadParticleEffect:(NSString*) effect {
+    [CCParticleSystemQuad particleWithFile:effect];
 }
 
 - (BulletCache*) getBulletCache {

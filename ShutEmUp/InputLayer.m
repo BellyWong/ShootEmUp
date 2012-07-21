@@ -62,7 +62,8 @@
     BattleShip *ship = [gameScene defaultShip];
     if (fireButton.active && totalTime > nextShotTime) {
         nextShotTime = totalTime + 0.5f;
-        
+        float pitch = CCRANDOM_0_1() * 0.2f + 0.9f;
+        [[SimpleAudioEngine sharedEngine] playEffect:@"shoot1.wav" pitch:pitch pan:0.0f gain:1.0f];
         CCLOG(@"FIRE MOTHERFUCKER!");
         BulletCache *cache = [gameScene getBulletCache];
         CGPoint shotPos = CGPointMake(ship.position.x + 45, ship.position.y - 19);

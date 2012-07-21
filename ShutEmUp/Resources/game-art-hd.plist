@@ -111,7 +111,7 @@
             <key>fire-button-idle.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{330,1634},{196,196}}</string>
+                <string>{{434,1574},{196,196}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -124,7 +124,7 @@
             <key>fire-button-pressed.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{236,1436},{196,196}}</string>
+                <string>{{236,1574},{196,196}}</string>
                 <key>offset</key>
                 <string>{2,0}</string>
                 <key>rotated</key>
@@ -150,7 +150,7 @@
             <key>joystick-back.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{130,1646},{198,198}}</string>
+                <string>{{236,1374},{198,198}}</string>
                 <key>offset</key>
                 <string>{0,1}</string>
                 <key>rotated</key>
@@ -163,7 +163,7 @@
             <key>joystick-stick.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{350,1106},{130,130}}</string>
+                <string>{{548,1106},{130,130}}</string>
                 <key>offset</key>
                 <string>{0,1}</string>
                 <key>rotated</key>
@@ -173,10 +173,49 @@
                 <key>sourceSize</key>
                 <string>{200,200}</string>
             </dict>
-            <key>monster-a.png</key>
+            <key>monster-a-anim0.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{416,1106},{133,64}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{1,0},{133,64}}</string>
+                <key>sourceSize</key>
+                <string>{135,64}</string>
+            </dict>
+            <key>monster-a-anim1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{350,1106},{133,64}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{1,0},{133,64}}</string>
+                <key>sourceSize</key>
+                <string>{135,64}</string>
+            </dict>
+            <key>monster-a-anim2.png</key>
             <dict>
                 <key>frame</key>
                 <string>{{284,1106},{133,64}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{1,0},{133,64}}</string>
+                <key>sourceSize</key>
+                <string>{135,64}</string>
+            </dict>
+            <key>monster-a.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{482,1106},{133,64}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -215,7 +254,7 @@
             <key>ship-anim0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{130,1436},{208,104}}</string>
+                <string>{{130,1584},{208,104}}</string>
                 <key>offset</key>
                 <string>{16,5}</string>
                 <key>rotated</key>
@@ -228,7 +267,7 @@
             <key>ship-anim1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{130,1935},{218,104}}</string>
+                <string>{{354,1935},{218,104}}</string>
                 <key>offset</key>
                 <string>{11,5}</string>
                 <key>rotated</key>
@@ -241,7 +280,7 @@
             <key>ship-anim2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{482,1106},{222,104}}</string>
+                <string>{{130,1935},{222,104}}</string>
                 <key>offset</key>
                 <string>{9,5}</string>
                 <key>rotated</key>
@@ -254,7 +293,7 @@
             <key>ship-anim3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{350,1935},{212,104}}</string>
+                <string>{{574,1935},{212,104}}</string>
                 <key>offset</key>
                 <string>{14,5}</string>
                 <key>rotated</key>
@@ -267,11 +306,11 @@
             <key>ship-anim4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{774,1935},{208,104}}</string>
+                <string>{{130,1374},{208,104}}</string>
                 <key>offset</key>
                 <string>{16,5}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{40,7},{208,104}}</string>
                 <key>sourceSize</key>
@@ -280,7 +319,7 @@
             <key>ship.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{564,1935},{208,104}}</string>
+                <string>{{788,1935},{208,104}}</string>
                 <key>offset</key>
                 <string>{16,5}</string>
                 <key>rotated</key>
@@ -332,11 +371,11 @@
             <key>snot.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{774,1374},{60,62}}</string>
+                <string>{{680,1106},{60,62}}</string>
                 <key>offset</key>
                 <string>{0,1}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{2,0},{60,62}}</string>
                 <key>sourceSize</key>
@@ -347,8 +386,12 @@
         <dict>
             <key>format</key>
             <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>game-art-hd.pvr.ccz</string>
             <key>size</key>
             <string>{1024,2048}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:f1b81637bfaf3abc63cf5443bd368646$</string>
             <key>textureFileName</key>
             <string>game-art-hd.pvr.ccz</string>
         </dict>

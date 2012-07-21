@@ -39,6 +39,7 @@ typedef enum {
 - (CCSpriteBatchNode*) spriteBatchNode;
 - (void) shootWithShip:(BattleShip*)ship;
 + (CGRect) screenRect;
+- (void) preloadParticleEffect:(NSString*) effect;
 
 @property(readonly, nonatomic) BattleShip* defaultShip;
 @property(readonly, nonatomic) BulletCache* getBulletCache;

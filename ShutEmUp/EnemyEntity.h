@@ -12,6 +12,7 @@
 #import "StandardMoveComponent.h"
 #import "StandardShootComponent.h"
 #import "HealthBarComponent.h"
+#import "SimpleAudioEngine.h"
 
 typedef enum {
     EnemyTypeUfo = 0,

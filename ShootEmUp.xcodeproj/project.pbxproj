@@ -157,6 +157,13 @@
 		A8A5766815B9A6DA003B20DF /* game-art-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = A8A5766415B9A6DA003B20DF /* game-art-hd.pvr.ccz */; };
 		A8A5766915B9A6DA003B20DF /* game-art.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8A5766515B9A6DA003B20DF /* game-art.plist */; };
 		A8A5766A15B9A6DA003B20DF /* game-art.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = A8A5766615B9A6DA003B20DF /* game-art.pvr.ccz */; };
+		A8B6192315BAFDE3008BA502 /* explo1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8B6191C15BAFDE3008BA502 /* explo1.wav */; };
+		A8B6192415BAFDE3008BA502 /* explo2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8B6191D15BAFDE3008BA502 /* explo2.wav */; };
+		A8B6192515BAFDE3008BA502 /* fx-explosion.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B6191E15BAFDE3008BA502 /* fx-explosion.plist */; };
+		A8B6192615BAFDE3008BA502 /* fx-explosion2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B6191F15BAFDE3008BA502 /* fx-explosion2.plist */; };
+		A8B6192715BAFDE3008BA502 /* hit1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8B6192015BAFDE3008BA502 /* hit1.wav */; };
+		A8B6192815BAFDE3008BA502 /* shoot1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8B6192115BAFDE3008BA502 /* shoot1.wav */; };
+		A8B6192915BAFDE3008BA502 /* shoot2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A8B6192215BAFDE3008BA502 /* shoot2.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -464,6 +471,13 @@
 		A8A5766415B9A6DA003B20DF /* game-art-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "game-art-hd.pvr.ccz"; path = "Resources/game-art-hd.pvr.ccz"; sourceTree = "<group>"; };
 		A8A5766515B9A6DA003B20DF /* game-art.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "game-art.plist"; path = "Resources/game-art.plist"; sourceTree = "<group>"; };
 		A8A5766615B9A6DA003B20DF /* game-art.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "game-art.pvr.ccz"; path = "Resources/game-art.pvr.ccz"; sourceTree = "<group>"; };
+		A8B6191C15BAFDE3008BA502 /* explo1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo1.wav; sourceTree = "<group>"; };
+		A8B6191D15BAFDE3008BA502 /* explo2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explo2.wav; sourceTree = "<group>"; };
+		A8B6191E15BAFDE3008BA502 /* fx-explosion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fx-explosion.plist"; sourceTree = "<group>"; };
+		A8B6191F15BAFDE3008BA502 /* fx-explosion2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fx-explosion2.plist"; sourceTree = "<group>"; };
+		A8B6192015BAFDE3008BA502 /* hit1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit1.wav; sourceTree = "<group>"; };
+		A8B6192115BAFDE3008BA502 /* shoot1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shoot1.wav; sourceTree = "<group>"; };
+		A8B6192215BAFDE3008BA502 /* shoot2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shoot2.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -548,6 +562,13 @@
 		A81A0A3B15B45F4400654937 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A8B6191C15BAFDE3008BA502 /* explo1.wav */,
+				A8B6191D15BAFDE3008BA502 /* explo2.wav */,
+				A8B6191E15BAFDE3008BA502 /* fx-explosion.plist */,
+				A8B6191F15BAFDE3008BA502 /* fx-explosion2.plist */,
+				A8B6192015BAFDE3008BA502 /* hit1.wav */,
+				A8B6192115BAFDE3008BA502 /* shoot1.wav */,
+				A8B6192215BAFDE3008BA502 /* shoot2.wav */,
 				A8A5766315B9A6DA003B20DF /* game-art-hd.plist */,
 				A8A5766415B9A6DA003B20DF /* game-art-hd.pvr.ccz */,
 				A8A5766515B9A6DA003B20DF /* game-art.plist */,
@@ -1033,6 +1054,13 @@
 				A8A5766815B9A6DA003B20DF /* game-art-hd.pvr.ccz in Resources */,
 				A8A5766915B9A6DA003B20DF /* game-art.plist in Resources */,
 				A8A5766A15B9A6DA003B20DF /* game-art.pvr.ccz in Resources */,
+				A8B6192315BAFDE3008BA502 /* explo1.wav in Resources */,
+				A8B6192415BAFDE3008BA502 /* explo2.wav in Resources */,
+				A8B6192515BAFDE3008BA502 /* fx-explosion.plist in Resources */,
+				A8B6192615BAFDE3008BA502 /* fx-explosion2.plist in Resources */,
+				A8B6192715BAFDE3008BA502 /* hit1.wav in Resources */,
+				A8B6192815BAFDE3008BA502 /* shoot1.wav in Resources */,
+				A8B6192915BAFDE3008BA502 /* shoot2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
